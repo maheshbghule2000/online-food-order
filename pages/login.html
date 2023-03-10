@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Login Form</title>
+      
+
+  
+  
+   <style>
+     .login-form{
+         /* border: 1px solid black; */
+         width:25%;
+         margin-left:37%;
+         margin-top:7%;
+         margin-bottom: 5%;
+         height: 500px;
+         padding-top: 20px;
+         background-color: white;
+         border-radius:20px;
+         box-shadow: 2px 2px 6px 2px #bfbfbf;
+         transition:2s;
+      }
+      .login-form:hover{
+         border-radius: 17px;
+         border-right: 2px solid black;
+         border-bottom: 2px solid black;
+         box-shadow: 2px 0 1px 4px #bfbfbf;
+         
+      }
+      input{
+         padding: 10px;
+         width: 200px;
+         font-size: 15px;
+      }
+        input::placeholder{
+         font-size: 17px;
+        }
+      .login-heading{
+         margin-bottom: 10px;
+         color:black;
+         margin-left:20%;
+         font-size:40px;
+      }
+
+      
+      .user-field{
+         font-size: 20px;
+         margin-bottom: 20px;
+         margin-left:70px;
+         line-height: 10px;
+          }
+      .pwd-field{
+         font-size: 20px;
+         margin-bottom: 10px;
+         margin-left:70px;
+         line-height: 10px;
+      }
+      .pwd-forgot{
+         margin-top:13px;
+         margin-bottom: 20px;
+         margin-left:200px;
+         font-size: 17px;
+      }
+      .login-button{
+         display: flex;
+         justify-content: center;
+         
+      }
+      .fb-g-tw-icons{
+         display: flex;
+         height: 35px;
+         margin-top: 25px;
+         margin-left: 90px;
+      }
+      .google-size{
+         height: 32px;
+         margin-left:10px;
+         margin-right:10px;
+         margin-top:4px;
+      }
+
+      .log-btn{
+            background-color: #a01f4c;
+            width: 100px;
+            border: 1px solid black;
+            padding: 10px;
+            margin-left: 100px;
+            cursor: pointer;
+            font-size: 17px;
+            border: none;
+            border-radius: 30px;
+            color: white;
+
+      }
+      .log-btn:hover{
+             
+         background-color: #641430;
+         border: 1px solid black;
+         color: white;
+      }
+
+      .sign-font{
+         margin-top:30px;
+        font-size:15px;
+         margin-left:100px;
+      }
+      .for-height{
+         margin-top:30px;
+         line-height: 3px;
+      }
+      .facebook-size{
+         height: 38px;
+      }
+
+      .twitter-size{
+         height:35px;
+      }
+      .main-container{
+         height: 100vh;
+    width:100%;
+    background:url(../images/login.jpeg);
+    background-size: cover;
+    background-position: center;
+    border: 1px solid white;    
+    background-attachment: fixed;
+ 
+      }
+           
+    </style> 
+</head>
+<body>
+   <div class="main-container">
+   <div class="login-form">
+      <div class="login-heading">
+        <p>Login Form</p>
+      </div>
+      <div class="user-field">
+         <p>Username</p>
+        <input type="text" placeholder="Enter Username">
+      </div>
+      <div class="pwd-field">
+         <p>Password</p>
+         <input type="password" placeholder="Enter Password">
+     </div>
+     <div class="pwd-forgot">
+         <a href="#">forgot password ?</a>
+     </div>
+
+       <div>
+        <button class="log-btn">LOGIN</button>
+      </div>
+
+
+      <div class="for-height">
+       <p class="sign-font">Or sign Up using</p>
+        <div class="fb-g-tw-icons">
+         <img class="facebook-size" src="../images/facebook-icon.png"/>
+         <img class="google-size" src="../images/google-icon.png"/>
+         <img class="twitter-size" src="../images/twitter-icon.png"/>
+
+         </div>
+
+      </div>
+
+   </div>
+
+</div>
+</body>
+</html>
